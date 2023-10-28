@@ -53,8 +53,9 @@ c.	examsTaken (a list of Exam objects) to store the exams taken by the student
 
 8.	Implement the Printable interface in the Student class to allow printing of student results to a text file (Loads of info available of the internet but you could start here https://www.homeandlearn.co.uk/java/write_to_textfile.html).  Output should be formatted appropriately.  It does not have to look exactly like the example below but it should be clearly laid out in tabular format. 
 
+![Picture1](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/0be0c49d-a3ad-457d-b4c8-941c983180f0)
 
-![Picture1](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/b801f285-50c8-482e-b359-83b1500ee91d)
+
 
 	
 	Both print methods should be fully implemented.
@@ -117,8 +118,11 @@ This class ensures that `studentName` is between 2 and 30 characters in length.
 ## 7. Printable Interface
 An interface named `Printable` with methods `printSummaryResult()` and `printDetailedResults()`.
 
-![Screenshot_22](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/4a5f6b54-b4f4-4c3f-83c2-bdc162b807d0)
-![Screenshot_24](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/8dd8a46b-1abe-4e9e-a9b4-31ccc175050d)
+![Screenshot_22](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/b752032e-0f84-4f9b-8bde-80e66fca5a34)
+
+
+![Screenshot_24](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/b2766b1e-abbd-4723-9feb-eda796b08a33)
+
 
 
 
@@ -136,7 +140,7 @@ Please refer to the respective class files for detailed implementation and funct
 
 ## Output menu
 
-![Screenshot_23](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/c1b44e45-68e7-4b14-b6b2-75e9a0583cee)
+![Screenshot_23](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/a0ca038a-ddc5-4f88-979c-585dcf29b707)
 
 <hr>
 
