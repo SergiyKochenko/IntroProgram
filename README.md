@@ -138,3 +138,30 @@ Please refer to the respective class files for detailed implementation and funct
 
 ![Screenshot_23](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/c1b44e45-68e7-4b14-b6b2-75e9a0583cee)
 
+<hr>
+
+## Credits
+
+### Code
+
+The structure and the code of the project were based on Software Development CA1 by ATU Atlantic Technological University (Donigel).
+
+Stack Overflow, Google, YouTube, and Slack were used intensively for research into code functionalities and problem-solving.
+
+### Contributing
+
+This project is a personal portfolio project and is not open for contributions. However, you're welcome to explore the source code and use it as a reference or inspiration for your own projects.
+
+### Inspiration
+
+This project was inspired by the IntelliJ IDEA 2023.2.2 Java project and the Software Development CA1.
+
+### Acknowledgment
+Thanks to:
+- The BSc Hons in Contemporary Software Development course at ATU Donegal program.
+- Teresa Deeney  INSTRUCTOR MANAGER at ATU Atlantic Technological University (Donigel).
+- The tutor support team at ATU Atlantic Technological University for their support.
+- To my family and my friends who supported me in the project.
+- Classmates for helping me.
+
+
