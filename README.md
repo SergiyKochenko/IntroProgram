@@ -131,3 +131,8 @@ It implements the `Comparable` interface for result comparison based on scores.
 A main class named `ExamManagement` that demonstrates the use of the above classes. It uses ArrayLists to create instances of Student, Exam, and ExamResult. The program allows for the entry of exam results for multiple students, sorting and displaying them, and provides an option to print results to a text file.
 
 Please refer to the respective class files for detailed implementation and functionality.
+
+## Output menu
+
+![Screenshot_23](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/c1b44e45-68e7-4b14-b6b2-75e9a0583cee)
+
