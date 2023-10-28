@@ -117,6 +117,9 @@ This class ensures that `studentName` is between 2 and 30 characters in length.
 ## 7. Printable Interface
 An interface named `Printable` with methods `printSummaryResult()` and `printDetailedResults()`.
 
+![Screenshot_22](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/4a5f6b54-b4f4-4c3f-83c2-bdc162b807d0)
+
+
 ## 8. ExamResult Class
 This class stores the result of an exam for a specific student with attributes:
 - `student` (a Student object) representing the student who took the exam.
