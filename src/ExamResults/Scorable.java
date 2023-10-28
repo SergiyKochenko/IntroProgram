@@ -1,2 +1,5 @@
-package ExamResults;public interface Scorable {
+package ExamResults;
+
+interface Scorable {
+    double calculateScore();
 }

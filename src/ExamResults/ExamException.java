@@ -1,2 +1,7 @@
-package ExamResults;public class ExamException {
+package ExamResults;
+
+class ExamException extends Exception {
+    public ExamException(String message) {
+        super(message);
+    }
 }

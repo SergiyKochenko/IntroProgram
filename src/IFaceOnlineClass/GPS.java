@@ -1,2 +1,5 @@
-package IFaceOnlineClass;public interface GPS {
+package IFaceOnlineClass;
+
+public interface GPS {
+    public void getCoordinates();
 }

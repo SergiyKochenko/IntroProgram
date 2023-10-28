@@ -1,20 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cbd944c-b4ec-4e97-8ce1-7853b24a05b0" name="Changes" comment="" />
+    <list default="true" id="7cbd944c-b4ec-4e97-8ce1-7853b24a05b0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/accounts.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/detailed_results.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/summary_result.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BankAccountManagement/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankAccountManagement/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BankAccountManagement/BankAccountManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankAccountManagement/BankAccountManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BankAccountManagement/InsufficientFundsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankAccountManagement/InsufficientFundsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BankAccountManagement/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankAccountManagement/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BankAccountManagement/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BankAccountManagement/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamResults/Essay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamResults/Essay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamResults/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamResults/Exam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamResults/ExamException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamResults/ExamException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamResults/ExamManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamResults/ExamManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamResults/ExamResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamResults/ExamResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamResults/MultipleChoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamResults/MultipleChoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamResults/Printable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamResults/Printable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamResults/Scorable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamResults/Scorable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamResults/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamResults/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamResults/StudentException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamResults/StudentException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFaceOnlineClass/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFaceOnlineClass/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFaceOnlineClass/Car2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFaceOnlineClass/Car2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFaceOnlineClass/Car3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFaceOnlineClass/Car3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFaceOnlineClass/Car4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFaceOnlineClass/Car4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFaceOnlineClass/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFaceOnlineClass/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFaceOnlineClass/Circle2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFaceOnlineClass/Circle2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFaceOnlineClass/Circle3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFaceOnlineClass/Circle3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFaceOnlineClass/ExtendedInt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFaceOnlineClass/ExtendedInt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFaceOnlineClass/GPS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFaceOnlineClass/GPS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFaceOnlineClass/IFaceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFaceOnlineClass/IFaceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFaceOnlineClass/MobilePhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFaceOnlineClass/MobilePhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFaceOnlineClass/Radio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFaceOnlineClass/Radio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFaceOnlineClass/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFaceOnlineClass/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFaceOnlineClass/Squere.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFaceOnlineClass/Squere.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFaceOnlineClass/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFaceOnlineClass/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFaceOnlineClass/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFaceOnlineClass/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFaceOnlineClass/Vehicle2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFaceOnlineClass/Vehicle2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFaceOnlineClass/myInt1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFaceOnlineClass/myInt1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IFaceOnlineClass/myInt2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IFaceOnlineClass/myInt2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/BankAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/BankAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/BankingApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/BankingApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/InsufficientFundsException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/InsufficientFundsException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/StudentException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/StudentException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/TestExceptions.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/TestExceptions.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2WPNVAnJGZpo8hCFvP9pV9jMsSE" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,11 +88,93 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "C:/Users/Acer PC/IdeaProjects/IntroProgram/src/Main.java",
+    "settings.editor.selected.configurable": "vcs.Git",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.ExamResults.ExamManagement">
+    <configuration name="BankAccountManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BankAccountManagement.BankAccountManagement" />
+      <module name="IntroProgram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BankAccountManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BankingApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.BankingApp" />
+      <module name="IntroProgram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExamResult.ExamManagement" />
+      <module name="IntroProgram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExamResult.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExamResults.ExamManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExamResults.ExamManagement" />
+      <module name="IntroProgram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ExamResults.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exceptions.TestExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.TestExceptions" />
+      <module name="IntroProgram" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ExamResults.ExamManagement" />
+        <item itemvalue="Application.BankingApp" />
+        <item itemvalue="Application.BankAccountManagement" />
+        <item itemvalue="Application.ExamManagement" />
+        <item itemvalue="Application.exceptions.TestExceptions" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -37,9 +183,36 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1696630283759</updated>
-      <workItem from="1696630284833" duration="1000" />
+      <workItem from="1696630284833" duration="29244000" />
+      <workItem from="1697185093336" duration="4085000" />
+      <workItem from="1697234655233" duration="6516000" />
+      <workItem from="1697752868785" duration="3893000" />
+      <workItem from="1697897067733" duration="661000" />
+      <workItem from="1697913841491" duration="11000" />
+      <workItem from="1698000696992" duration="4731000" />
+      <workItem from="1698495494650" duration="10584000" />
+      <workItem from="1698514922994" duration="41000" />
+      <workItem from="1698515037742" duration="19000" />
+      <workItem from="1698515109062" duration="13000" />
+      <workItem from="1698515160892" duration="42000" />
+      <workItem from="1698515270574" duration="25000" />
+      <workItem from="1698515337990" duration="45000" />
+      <workItem from="1698515454489" duration="20000" />
+      <workItem from="1698515506125" duration="28000" />
+      <workItem from="1698515624594" duration="15000" />
+      <workItem from="1698515678730" duration="19000" />
+      <workItem from="1698515771982" duration="23000" />
+      <workItem from="1698515856728" duration="27000" />
+      <workItem from="1698515929391" duration="42000" />
+      <workItem from="1698516030806" duration="14000" />
+      <workItem from="1698516101696" duration="18000" />
+      <workItem from="1698516171388" duration="19000" />
+      <workItem from="1698516433942" duration="3713000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -49,7 +222,21 @@
           <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/exceptions/TestExceptions.java</url>
+          <line>5</line>
+          <properties class="exceptions.TestExceptions" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/IntroProgram$IFaceTest.ic" NAME="IFaceTest Coverage Results" MODIFIED="1696632539546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>IFaceOnlineClass.*</FILTER>
+    </SUITE>
   </component>
 </project>

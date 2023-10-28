@@ -1,2 +1,8 @@
-package IFaceOnlineClass;public class Shape {
+package IFaceOnlineClass;
+
+public class Shape {
+    public double area()
+    {
+        return 0;
+    }
 }
