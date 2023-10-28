@@ -148,7 +148,7 @@ Please refer to the respective class files for detailed implementation and funct
 
 ### Code
 
-The structure and the code of the project were based on Software Development CA1 by ATU Atlantic Technological University (Donigel).
+The structure and the code of the project were based on Software Development CA1 by ATU Atlantic Technological University (Donegal).
 
 Stack Overflow, Google, YouTube, and Slack were used intensively for research into code functionalities and problem-solving.
 
@@ -163,7 +163,7 @@ This project was inspired by the IntelliJ IDEA 2023.2.2 Java project and the Sof
 ### Acknowledgment
 Thanks to:
 - The BSc Hons in Contemporary Software Development course at ATU Donegal program.
-- Teresa Deeney  INSTRUCTOR MANAGER at ATU Atlantic Technological University (Donigel).
+- Teresa Deeney  INSTRUCTOR MANAGER at ATU Atlantic Technological University (Donegal).
 - The tutor support team at ATU Atlantic Technological University for their support.
 - To my family and my friends who supported me in the project.
 - Classmates for helping me.
