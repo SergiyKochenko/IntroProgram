@@ -4,6 +4,7 @@ import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
@@ -22,156 +23,176 @@ class ExamManagement {
             System.out.println("4. Print Summary Result");
             System.out.println("5. Print Detailed Results");
             System.out.println("6. Quit");
-            System.out.print("Enter your choice: ");
+            System.out.print("Enter your choice(only numbers allowed): ");
 
-            int choice = scanner.nextInt();
-            scanner.nextLine();
+            try {
+                int choice = scanner.nextInt();
+                scanner.nextLine();
 
-            switch (choice) {
-                case 1:
-                    try {
+                if (choice < 1 || choice > 6) {
+                    System.out.println("Invalid choice. Please enter a number between 1 and 6.");
+                    continue;  // Ask for input again
+                }
+
+                switch (choice) {
+                    case 1:
                         System.out.print("Enter Student ID: ");
-                        int studentId = scanner.nextInt();
-                        scanner.nextLine();
+                        String studentIdString = scanner.nextLine();
+                        if (!Student.isValidStudentId(studentIdString)) {
+                            System.out.println("Invalid student ID. Please enter only numeric characters.");
+                            break;
+                        }
+
+                        int studentIdInt = Integer.parseInt(studentIdString);
 
                         System.out.print("Enter Student Name: ");
                         String studentName = scanner.nextLine();
 
-                        Student student = new Student(studentId, studentName);
-                        students.add(student);
-                        System.out.println("Student added successfully.");
-                    } catch (StudentException e) {
-                        System.out.println(e.getMessage());
-                    }
-                    break;
-
-                case 2:
-                    try {
-                        System.out.print("Enter Student ID: ");
-                        int studentId = scanner.nextInt();
-                        scanner.nextLine();
-
-                        System.out.print("Enter Exam ID: ");
-                        int examId = scanner.nextInt();
-                        scanner.nextLine();
-
-                        System.out.print("Enter Subject: ");
-                        String subject = scanner.nextLine();
-
-                        System.out.print("Enter Duration (in minutes): ");
-                        int duration = scanner.nextInt();
-                        scanner.nextLine();
-
-                        System.out.print("Enter Correct Answers: ");
-                        int correctAnswers = scanner.nextInt();
-                        scanner.nextLine();
-
-                        System.out.print("Enter Total Questions: ");
-                        int noQuestions = scanner.nextInt();
-                        scanner.nextLine();
-
-                        Student student = findStudentById(students, studentId);
-                        if (student == null) {
-                            System.out.println("Student not found.");
+                        if (!Student.isValidStudentName(studentName)) {
+                            System.out.println("Invalid student name. Please enter only alphabetic characters.");
                             break;
                         }
 
                         try {
-                            Exam exam = new MultipleChoice(examId, subject, duration, correctAnswers, noQuestions);
-                            student.addExam(exam);
-                            double score = ((MultipleChoice) exam).calculateScore();
-                            ExamResult result = new ExamResult(student, exam, (int) score);
-                            examResults.add(result);
-                            System.out.println("Multiple Choice Exam result added successfully.");
-                        } catch (ExamException e) {
+                            Student student = new Student(studentIdInt, studentName);
+                            students.add(student);
+                            System.out.println("Student added successfully.");
+                        } catch (StudentException e) {
                             System.out.println(e.getMessage());
                         }
-                    } catch (Exception e) {
-                        System.out.println("Invalid input. Please try again.");
-                        scanner.nextLine();
-                    }
-                    break;
+                        break;
 
-                case 3:
-                    try {
-                        System.out.print("Enter Student ID: ");
-                        int studentId = scanner.nextInt();
-                        scanner.nextLine();
-
-                        System.out.print("Enter Exam ID: ");
-                        int examId = scanner.nextInt();
-                        scanner.nextLine();
-
-                        System.out.print("Enter Subject: ");
-                        String subject = scanner.nextLine();
-
-                        System.out.print("Enter Duration (in minutes): ");
-                        int duration = scanner.nextInt();
-                        scanner.nextLine();
-
-                        System.out.print("Enter Essay Answer: ");
-                        String essayAnswer = scanner.nextLine();
-
-                        System.out.print("Enter Grammar Marks: ");
-                        int grammar = scanner.nextInt();
-                        scanner.nextLine();
-
-                        System.out.print("Enter Content Marks: ");
-                        int content = scanner.nextInt();
-                        scanner.nextLine();
-
-                        System.out.print("Enter Word Limit: ");
-                        int wordLimit = scanner.nextInt();
-                        scanner.nextLine();
-
-                        Student student = findStudentById(students, studentId);
-                        if (student == null) {
-                            System.out.println("Student not found.");
-                            break;
-                        }
-
+                    case 2:
                         try {
-                            Exam exam = new Essay(examId, subject, duration, essayAnswer, grammar, content, wordLimit);
-                            student.addExam(exam);
-                            double score = ((Essay) exam).calculateScore();
-                            ExamResult result = new ExamResult(student, exam, (int) score);
-                            examResults.add(result);
-                            System.out.println("Essay Exam result added successfully.");
-                        } catch (ExamException e) {
-                            System.out.println(e.getMessage());
+                            System.out.print("Enter Student ID: ");
+                            int studentId = scanner.nextInt();
+                            scanner.nextLine();
+
+                            System.out.print("Enter Exam ID: ");
+                            int examId = scanner.nextInt();
+                            scanner.nextLine();
+
+                            System.out.print("Enter Subject: ");
+                            String subject = scanner.nextLine();
+
+                            System.out.print("Enter Duration (in minutes): ");
+                            int duration = scanner.nextInt();
+                            scanner.nextLine();
+
+                            System.out.print("Enter Correct Answers: ");
+                            int correctAnswers = scanner.nextInt();
+                            scanner.nextLine();
+
+                            System.out.print("Enter Total Questions: ");
+                            int noQuestions = scanner.nextInt();
+                            scanner.nextLine();
+
+                            Student student = findStudentById(students, studentId);
+                            if (student == null) {
+                                System.out.println("Student not found.");
+                                break;
+                            }
+
+                            try {
+                                Exam exam = new MultipleChoice(examId, subject, duration, correctAnswers, noQuestions);
+                                student.addExam(exam);
+                                double score = ((MultipleChoice) exam).calculateScore();
+                                ExamResult result = new ExamResult(student, exam, (int) score);
+                                examResults.add(result);
+                                System.out.println("Multiple Choice Exam result added successfully.");
+                            } catch (ExamException e) {
+                                System.out.println(e.getMessage());
+                            }
+                        } catch (Exception e) {
+                            System.out.println("Invalid input. Please enter only numeric characters and try again.");
+                            scanner.nextLine();
                         }
-                    } catch (Exception e) {
-                        System.out.println("Invalid input. Please try again.");
-                        scanner.nextLine();
-                    }
-                    break;
+                        break;
 
-                case 4:
-                    try {
-                        printSummaryResult(examResults);
-                    } catch (IOException e) {
-                        System.out.println("Error writing to file: " + e.getMessage());
-                    }
-                    break;
+                    case 3:
+                        try {
+                            System.out.print("Enter Student ID: ");
+                            int studentId = scanner.nextInt();
+                            scanner.nextLine();
 
-                case 5:
-                    try {
-                        printDetailedResults(examResults);
-                    } catch (IOException e) {
-                        System.out.println("Error writing to file: " + e.getMessage());
-                    }
-                    break;
+                            System.out.print("Enter Exam ID: ");
+                            int examId = scanner.nextInt();
+                            scanner.nextLine();
 
-                case 6:
-                    scanner.close();
-                    return;
+                            System.out.print("Enter Subject: ");
+                            String subject = scanner.nextLine();
 
-                default:
-                    System.out.println("Invalid choice. Please try again.");
+                            System.out.print("Enter Duration (in minutes): ");
+                            int duration = scanner.nextInt();
+                            scanner.nextLine();
+
+                            System.out.print("Enter Essay Answer: ");
+                            String essayAnswer = scanner.nextLine();
+
+                            System.out.print("Enter Grammar Marks: ");
+                            int grammar = scanner.nextInt();
+                            scanner.nextLine();
+
+                            System.out.print("Enter Content Marks: ");
+                            int content = scanner.nextInt();
+                            scanner.nextLine();
+
+                            System.out.print("Enter Word Limit: ");
+                            int wordLimit = scanner.nextInt();
+                            scanner.nextLine();
+
+                            Student student = findStudentById(students, studentId);
+                            if (student == null) {
+                                System.out.println("Student not found.");
+                                break;
+                            }
+
+                            try {
+                                Exam exam = new Essay(examId, subject, duration, essayAnswer, grammar, content, wordLimit);
+                                student.addExam(exam);
+                                double score = ((Essay) exam).calculateScore();
+                                ExamResult result = new ExamResult(student, exam, (int) score);
+                                examResults.add(result);
+                                System.out.println("Essay Exam result added successfully.");
+                            } catch (ExamException e) {
+                                System.out.println(e.getMessage());
+                            }
+                        } catch (Exception e) {
+                            System.out.println("Invalid input. Please try again.");
+                            scanner.nextLine();
+                        }
+                        break;
+
+                    case 4:
+                        try {
+                            printSummaryResult(examResults);
+                        } catch (IOException e) {
+                            System.out.println("Error writing to file: " + e.getMessage());
+                        }
+                        break;
+
+                    case 5:
+                        try {
+                            printDetailedResults(examResults);
+                        } catch (IOException e) {
+                            System.out.println("Error writing to file: " + e.getMessage());
+                        }
+                        break;
+
+                    case 6:
+                        scanner.close();
+                        return;
+
+                    default:
+                        System.out.println("Invalid choice. Please try again.");
+                }
+
+            } catch (InputMismatchException e) {
+                System.out.println("Invalid input. Please enter only numeric characters.");
+                scanner.nextLine();  // Consume invalid input
             }
         }
     }
-
 
     private static Student findStudentById(List<Student> students, int studentId) {
         for (Student student : students) {

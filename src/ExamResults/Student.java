@@ -33,4 +33,12 @@ class Student {
         examsTaken.add(exam);
     }
 
+    public static boolean isValidStudentId(String studentId) {
+        return studentId.matches("\\d+");
+    }
+
+    public static boolean isValidStudentName(String studentName) {
+        return studentName.matches("[a-zA-Z]+");
+    }
+
 }

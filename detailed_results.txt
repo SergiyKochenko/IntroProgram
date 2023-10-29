@@ -1,6 +1,4 @@
 -------------------------------------------------------
 Student ID            Name                          Exam ID                  Subject                  Exam Type                Score                    
 -------------------------------------------------------
-1                     serg                          2                        asses                    Essay                    0                        
-1                     serg                          1                        appp                     Essay                    0                        
-1                     serg                          3                        rrrrrrrr                 Essay                    0                        
+1                     asa                           3                        rrr                      Mult Choice              97                       
