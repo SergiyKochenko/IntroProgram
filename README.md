@@ -140,7 +140,8 @@ Please refer to the respective class files for detailed implementation and funct
 
 ## Output menu
 
-![Screenshot_23](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/a0ca038a-ddc5-4f88-979c-585dcf29b707)
+![Screenshot_27](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/f0884915-b63d-45bb-89f3-76db3e852d9e)
+
 
 <hr>
 
