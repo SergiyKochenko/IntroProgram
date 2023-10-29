@@ -4,54 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cbd944c-b4ec-4e97-8ce1-7853b24a05b0" name="Changes" comment="initial commit 2">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/BankAccountManagement/BankAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/BankAccountManagement/BankAccountManagement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/BankAccountManagement/InsufficientFundsException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/BankAccountManagement/LinkedList.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/BankAccountManagement/Node.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/ExamResults/Essay.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/ExamResults/Exam.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/ExamResults/ExamException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/ExamResults/ExamManagement.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/ExamResults/ExamResult.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/ExamResults/MultipleChoice.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/ExamResults/Printable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/ExamResults/Scorable.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/ExamResults/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/ExamResults/StudentException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/IFaceOnlineClass/Car.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/IFaceOnlineClass/Car2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/IFaceOnlineClass/Car3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/IFaceOnlineClass/Car4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/IFaceOnlineClass/Circle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/IFaceOnlineClass/Circle2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/IFaceOnlineClass/Circle3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/IFaceOnlineClass/ExtendedInt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/IFaceOnlineClass/GPS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/IFaceOnlineClass/IFaceTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/IFaceOnlineClass/MobilePhone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/IFaceOnlineClass/Radio.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/IFaceOnlineClass/Shape.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/IFaceOnlineClass/Squere.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/IFaceOnlineClass/Truck.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/IFaceOnlineClass/Vehicle.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/IFaceOnlineClass/Vehicle2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/IFaceOnlineClass/myInt1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/IFaceOnlineClass/myInt2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/exceptions/BankAccount.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/exceptions/BankingApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/exceptions/InsufficientFundsException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/exceptions/Student.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/exceptions/StudentException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/IntroProgram/exceptions/TestExceptions.class" afterDir="false" />
+    <list default="true" id="7cbd944c-b4ec-4e97-8ce1-7853b24a05b0" name="Changes" comment="Correction of Essay class and validation of functions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detailed_results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/detailed_results.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExamResults/Essay.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamResults/Essay.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroProgram/ExamResults/ExamManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroProgram/ExamResults/ExamManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/IntroProgram/ExamResults/MultipleChoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroProgram/ExamResults/MultipleChoice.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ExamResults/ExamManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamResults/ExamManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExamResults/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamResults/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ExamResults/MultipleChoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamResults/MultipleChoice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/summary_result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/summary_result.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +33,9 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -210,7 +172,7 @@
       <workItem from="1698516030806" duration="14000" />
       <workItem from="1698516101696" duration="18000" />
       <workItem from="1698516171388" duration="19000" />
-      <workItem from="1698516433942" duration="18947000" />
+      <workItem from="1698516433942" duration="26237000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit 2">
       <option name="closed" value="true" />
@@ -220,7 +182,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698524869990</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Correction of Essay class and validation of functions">
+      <option name="closed" value="true" />
+      <created>1698593298608</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698593298608</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -239,7 +209,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit 2" />
+    <MESSAGE value="Correction of Essay class and validation of functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correction of Essay class and validation of functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

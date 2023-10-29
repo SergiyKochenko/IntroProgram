@@ -1,7 +1,6 @@
 package ExamResults;
 
 
-
 class MultipleChoice extends Exam implements Scorable {
     private int correctAnswers;
     private int noQuestions;
@@ -11,8 +10,8 @@ class MultipleChoice extends Exam implements Scorable {
         if (noQuestions < 10 || noQuestions > 50) {
             throw new ExamException("Number of questions should be between 10 and 50");
         }
-        if (correctAnswers < 0) {
-            throw new ExamException("Correct answers should be greater than or equal to zero");
+        if (correctAnswers < 0 || correctAnswers > noQuestions) {
+            throw new ExamException("Correct answers should be between 0 and " + noQuestions);
         }
         this.correctAnswers = correctAnswers;
         this.noQuestions = noQuestions;
@@ -27,7 +26,7 @@ class MultipleChoice extends Exam implements Scorable {
         System.out.println("Exam ID: " + getExamId());
         System.out.println("Subject: " + getSubject());
         System.out.println("Duration: " + getDuration() + " minutes");
-        System.out.println("Correct Answers: " + correctAnswers);
         System.out.println("Total Questions: " + noQuestions);
+        System.out.println("Correct Answers: " + correctAnswers);
     }
 }
