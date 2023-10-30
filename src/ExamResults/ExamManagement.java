@@ -10,6 +10,16 @@ import java.util.Scanner;
 
 class ExamManagement {
 
+    public static final String RESET = "\u001B[0m";
+    public static final String GREEN = "\u001B[32m";
+    public static final String RED = "\u001B[31m";
+    public static final String BLUE = "\u001B[34m";
+    public static final String YELLOW = "\u001B[33m";
+    public static final String ORANGE = "\u001B[38;5;208m";
+
+
+
+
     public static void main(String[] args) {
         List<Student> students = new ArrayList<>();
         List<ExamResult> examResults = new ArrayList<>();
@@ -17,20 +27,25 @@ class ExamManagement {
         Scanner scanner = new Scanner(System.in);
 
         while (true) {
-            System.out.println("\u001B[32m1. Add Student");
+            System.out.println(GREEN+"""
+            =====================================
+              Welcome to Exam Management System
+            =====================================
+            """+RESET);
+            System.out.println(BLUE + "1. Add Student");
             System.out.println("2. Add Multiple Choice Exam Result");
             System.out.println("3. Add Essay Exam Result");
-            System.out.println("\u001B[31m4. Print Summary Result");
+            System.out.println(YELLOW + "4. Print Summary Result");
             System.out.println("5. Print Detailed Results");
             System.out.println("6. Quit");
-            System.out.print("\u001B[0mEnter your choice(only numbers allowed): ");
+            System.out.print(ORANGE + "Enter your choice(only numbers allowed): " + RESET);
 
             try {
                 int choice = scanner.nextInt();
                 scanner.nextLine();
 
                 if (choice < 1 || choice > 6) {
-                    System.out.println("Invalid choice. Please enter a number between 1 and 6.");
+                    System.out.println(RED + "Invalid choice. Please enter a number between 1 and 6." + RESET);
                     continue;  // Ask for input again
                 }
 
@@ -39,7 +54,7 @@ class ExamManagement {
                         System.out.print("Enter Student ID: ");
                         String studentIdString = scanner.nextLine();
                         if (!Student.isValidStudentId(studentIdString)) {
-                            System.out.println("Invalid student ID. Please enter only numeric characters.");
+                            System.out.println(RED + "Invalid student ID. Please enter only numeric characters." + RESET);
                             break;
                         }
 
@@ -49,14 +64,14 @@ class ExamManagement {
                         String studentName = scanner.nextLine();
 
                         if (!Student.isValidStudentName(studentName)) {
-                            System.out.println("Invalid student name. Please enter only alphabetic characters.");
+                            System.out.println(RED + "Invalid student name. Please enter only alphabetic characters." + RESET);
                             break;
                         }
 
                         try {
                             Student student = new Student(studentIdInt, studentName);
                             students.add(student);
-                            System.out.println("Student added successfully.");
+                            System.out.println(ORANGE +"Student added successfully." +RESET);
                         } catch (StudentException e) {
                             System.out.println(e.getMessage());
                         }
@@ -79,17 +94,17 @@ class ExamManagement {
                             int duration = scanner.nextInt();
                             scanner.nextLine();
 
-                            System.out.print("Enter Correct Answers: ");
-                            int correctAnswers = scanner.nextInt();
-                            scanner.nextLine();
-
                             System.out.print("Enter Total Questions: ");
                             int noQuestions = scanner.nextInt();
                             scanner.nextLine();
 
+                            System.out.print("Enter Correct Answers: ");
+                            int correctAnswers = scanner.nextInt();
+                            scanner.nextLine();
+
                             Student student = findStudentById(students, studentId);
                             if (student == null) {
-                                System.out.println("Student not found.");
+                                System.out.println(RED + "Student not found." + RESET);
                                 break;
                             }
 
@@ -99,12 +114,12 @@ class ExamManagement {
                                 double score = ((MultipleChoice) exam).calculateScore();
                                 ExamResult result = new ExamResult(student, exam, (int) score);
                                 examResults.add(result);
-                                System.out.println("Multiple Choice Exam result added successfully.");
+                                System.out.println(ORANGE + "Multiple Choice Exam result added successfully." + RESET );
                             } catch (ExamException e) {
                                 System.out.println(e.getMessage());
                             }
                         } catch (Exception e) {
-                            System.out.println("Invalid input. Please enter only numeric characters and try again.");
+                            System.out.println(RED + "Invalid input. Please enter only numeric characters and try again." + RESET);
                             scanner.nextLine();
                         }
                         break;
@@ -143,7 +158,7 @@ class ExamManagement {
 
                             Student student = findStudentById(students, studentId);
                             if (student == null) {
-                                System.out.println("Student not found.");
+                                System.out.println(RED + "Student not found." + RESET);
                                 break;
                             }
 
@@ -153,12 +168,12 @@ class ExamManagement {
                                 double score = ((Essay) exam).calculateScore();
                                 ExamResult result = new ExamResult(student, exam, (int) score);
                                 examResults.add(result);
-                                System.out.println("Essay Exam result added successfully.");
+                                System.out.println(ORANGE + "Essay Exam result added successfully." + RESET);
                             } catch (ExamException e) {
                                 System.out.println(e.getMessage());
                             }
                         } catch (Exception e) {
-                            System.out.println("Invalid input. Please try again.");
+                            System.out.println(RED + "Invalid input. Please try again." + RESET);
                             scanner.nextLine();
                         }
                         break;
@@ -184,11 +199,11 @@ class ExamManagement {
                         return;
 
                     default:
-                        System.out.println("Invalid choice. Please try again.");
+                        System.out.println(RED + "Invalid choice. Please try again." + RESET);
                 }
 
             } catch (InputMismatchException e) {
-                System.out.println("Invalid input. Please enter only numeric characters.");
+                System.out.println(RED + "Invalid input. Please enter only numeric characters." + RESET);
                 scanner.nextLine();  // Consume invalid input
             }
         }
@@ -218,7 +233,7 @@ class ExamManagement {
         }
 
         writer.close();
-        System.out.println("Summary result written to summary_result.txt");
+        System.out.println(ORANGE + "Summary result written to summary_result.txt" + RESET);
     }
 
     private static void printDetailedResults(List<ExamResult> examResults) throws IOException {
@@ -238,6 +253,6 @@ class ExamManagement {
         }
 
         writer.close();
-        System.out.println("Detailed results written to detailed_results.txt");
+        System.out.println(ORANGE + "Detailed results written to detailed_results.txt" + RESET);
     }
 }
