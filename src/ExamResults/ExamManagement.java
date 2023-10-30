@@ -246,7 +246,7 @@ class ExamManagement {
         for (ExamResult result : examResults) {
             Student student = result.getStudent();
             Exam exam = result.getExam();
-            String examType = (exam instanceof MultipleChoice) ? "Mult Choice" : "Essay";
+            String examType = (exam instanceof MultipleChoice) ? "Multi Choice" : "Essay";
             writer.write(String.format("%-22d%-30s%-25d%-25s%-25s%-25d\n",
                     student.getStudentId(), student.getStudentName(),
                     exam.getExamId(), exam.getSubject(), examType, result.getScore()));

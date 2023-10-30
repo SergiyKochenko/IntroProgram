@@ -2,8 +2,8 @@ package ExamResults;
 
 
 class MultipleChoice extends Exam implements Scorable {
-    private int correctAnswers;
-    private int noQuestions;
+    private final int correctAnswers;
+    private final int noQuestions;
 
     public MultipleChoice(int examId, String subject, int duration, int correctAnswers, int noQuestions) throws ExamException {
         super(examId, subject, duration);

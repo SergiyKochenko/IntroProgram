@@ -1,4 +1,5 @@
 -------------------------------------------------------
 Student ID            Name                          Exam ID                  Subject                  Exam Type                Score                    
 -------------------------------------------------------
-1                     Kira                          2                        Math                     Mult Choice              98                       
+1                     Bob                           2                        Math                     Multi Choice             80                       
+1                     Bob                           3                        Letter                   Essay                    59                       
