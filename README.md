@@ -142,6 +142,8 @@ Please refer to the respective class files for detailed implementation and funct
 
 ![Screenshot_29](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/2fc8e401-295f-4088-a6b1-2d678d607a76)
 
+![Screenshot_30](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/f95abb08-cc43-4cae-82c7-34f49679eafd)
+
 <hr>
 
 ## Credits
