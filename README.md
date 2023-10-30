@@ -146,6 +146,9 @@ Please refer to the respective class files for detailed implementation and funct
 
 ![Screenshot_33](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/d1395b16-dd9f-41c5-9b50-430a838b5660)
 
+![Screenshot_34](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/ecef2c3a-5635-4d52-b705-32e87ed08305)
+
+
 
 
 <hr>
