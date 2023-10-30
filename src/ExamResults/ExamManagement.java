@@ -181,6 +181,7 @@ class ExamManagement {
                     case 4:
                         try {
                             printSummaryResult(examResults);
+                            printSummaryResultOnScreen(examResults); // Call the new method
                         } catch (IOException e) {
                             System.out.println("Error writing to file: " + e.getMessage());
                         }
@@ -189,6 +190,7 @@ class ExamManagement {
                     case 5:
                         try {
                             printDetailedResults(examResults);
+                            printDetailedResultsOnScreen(examResults); // Call the new method
                         } catch (IOException e) {
                             System.out.println("Error writing to file: " + e.getMessage());
                         }
@@ -218,6 +220,37 @@ class ExamManagement {
         return null;
     }
 
+    private static void printSummaryResultOnScreen(List<ExamResult> examResults) {
+        System.out.println("-------------------------------------------------------");
+        System.out.println(String.format("%-22s%-30s%-25s%-25s", "Student ID", "Name", "Exam ID", "Subject"));
+        System.out.println("-------------------------------------------------------");
+
+        for (ExamResult result : examResults) {
+            Student student = result.getStudent();
+            Exam exam = result.getExam();
+            System.out.println(String.format("%-22d%-30s%-25d%-25s",
+                    student.getStudentId(), student.getStudentName(),
+                    exam.getExamId(), exam.getSubject()));
+        }
+    }
+
+    private static void printDetailedResultsOnScreen(List<ExamResult> examResults) {
+        System.out.println("-------------------------------------------------------");
+        System.out.println(String.format("%-22s%-30s%-25s%-25s%-25s%-25s",
+                "Student ID", "Name", "Exam ID", "Subject", "Exam Type", "Score"));
+        System.out.println("-------------------------------------------------------");
+
+        for (ExamResult result : examResults) {
+            Student student = result.getStudent();
+            Exam exam = result.getExam();
+            String examType = (exam instanceof MultipleChoice) ? "Multi Choice" : "Essay";
+            System.out.println(String.format("%-22d%-30s%-25d%-25s%-25s%-25d",
+                    student.getStudentId(), student.getStudentName(),
+                    exam.getExamId(), exam.getSubject(), examType, result.getScore()));
+        }
+    }
+
+
     private static void printSummaryResult(List<ExamResult> examResults) throws IOException {
         BufferedWriter writer = new BufferedWriter(new FileWriter("summary_result.txt"));
         writer.write("-------------------------------------------------------\n");
@@ -233,7 +266,7 @@ class ExamManagement {
         }
 
         writer.close();
-        System.out.println(ORANGE + "Summary result written to summary_result.txt" + RESET);
+        System.out.println(ORANGE + "Summary result written to summary_result.txt and screen display" + RESET);
     }
 
     private static void printDetailedResults(List<ExamResult> examResults) throws IOException {
@@ -253,6 +286,6 @@ class ExamManagement {
         }
 
         writer.close();
-        System.out.println(ORANGE + "Detailed results written to detailed_results.txt" + RESET);
+        System.out.println(ORANGE + "Detailed results written to detailed_results.txt and screen display" + RESET);
     }
 }
