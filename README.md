@@ -140,15 +140,13 @@ Please refer to the respective class files for detailed implementation and funct
 
 ## Output menu
 
-![Screenshot_29](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/2fc8e401-295f-4088-a6b1-2d678d607a76)
+![Screenshot_29](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/7d0575c2-5ac5-429e-a163-705324995ee3)
 
-![Screenshot_30](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/f95abb08-cc43-4cae-82c7-34f49679eafd)
+![Screenshot_30](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/01d92002-ce02-4b03-90a0-300be1fcd587)
 
-![Screenshot_33](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/d1395b16-dd9f-41c5-9b50-430a838b5660)
+![Screenshot_33](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/d88b703f-5323-4528-aff5-a57d71cf1770)
 
-![Screenshot_34](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/ecef2c3a-5635-4d52-b705-32e87ed08305)
-
-
+![Screenshot_34](https://github.com/SergiyKochenko/IntroProgram/assets/119933936/7d1faa59-d148-469a-821e-db83e6f668c4)
 
 
 <hr>

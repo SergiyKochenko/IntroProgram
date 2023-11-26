@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cbd944c-b4ec-4e97-8ce1-7853b24a05b0" name="Changes" comment="Updated print options to screen and to .txt file">
-      <change afterPath="$PROJECT_DIR$/src/LibraryApplication/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryApplication/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryApplication/DVD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryApplication/DataManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryApplication/LibraryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryApplication/LibraryCatalog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryApplication/LibraryItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LibraryApplication/LibraryUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/detailed_results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/detailed_results.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/IntroProgram/ExamResults/ExamManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroProgram/ExamResults/ExamManagement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ExamResults/ExamManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ExamResults/ExamManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/summary_result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/summary_result.txt" afterDir="false" />
-    </list>
+    <list default="true" id="7cbd944c-b4ec-4e97-8ce1-7853b24a05b0" name="Changes" comment="Created LibraryApplication" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -198,7 +184,7 @@
       <workItem from="1700087587652" duration="670000" />
       <workItem from="1700471558341" duration="5000" />
       <workItem from="1700994612077" duration="522000" />
-      <workItem from="1700995270192" duration="21698000" />
+      <workItem from="1700995270192" duration="22038000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit 2">
       <option name="closed" value="true" />
@@ -256,7 +242,47 @@
       <option name="project" value="LOCAL" />
       <updated>1698687187855</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Created LibraryApplication">
+      <option name="closed" value="true" />
+      <created>1701042439236</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1701042439236</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Created LibraryApplication">
+      <option name="closed" value="true" />
+      <created>1701042470646</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1701042470646</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Created LibraryApplication">
+      <option name="closed" value="true" />
+      <created>1701042489306</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1701042489306</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Created LibraryApplication">
+      <option name="closed" value="true" />
+      <created>1701042559563</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1701042559563</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Created LibraryApplication">
+      <option name="closed" value="true" />
+      <created>1701042693864</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1701042693864</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +307,8 @@
     <MESSAGE value="Menu modified" />
     <MESSAGE value="Format code, fixing bugs" />
     <MESSAGE value="Updated print options to screen and to .txt file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated print options to screen and to .txt file" />
+    <MESSAGE value="Created LibraryApplication" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created LibraryApplication" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
