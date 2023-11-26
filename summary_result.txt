@@ -1,9 +1,4 @@
 -------------------------------------------------------
 Student ID            Name                          Exam ID                  Subject                  
 -------------------------------------------------------
-1                     Kira                          1                        Math                     
-2                     Tom                           1                        Math                     
-3                     Mike                          1                        Math                     
-1                     Kira                          2                        Letter                   
-2                     Tom                           2                        Letter                   
-3                     Mike                          2                        Letter                   
+1                     Sergiy                        2                        ukhkuhn                  

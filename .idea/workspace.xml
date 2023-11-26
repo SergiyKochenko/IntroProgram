@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cbd944c-b4ec-4e97-8ce1-7853b24a05b0" name="Changes" comment="Format code, fixing bugs">
+    <list default="true" id="7cbd944c-b4ec-4e97-8ce1-7853b24a05b0" name="Changes" comment="Updated print options to screen and to .txt file">
+      <change afterPath="$PROJECT_DIR$/src/LibraryApplication/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryApplication/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryApplication/DVD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryApplication/DataManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryApplication/LibraryApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryApplication/LibraryCatalog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryApplication/LibraryItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/LibraryApplication/LibraryUser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/detailed_results.txt" beforeDir="false" afterPath="$PROJECT_DIR$/detailed_results.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/IntroProgram/ExamResults/ExamManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/IntroProgram/ExamResults/ExamManagement.class" afterDir="false" />
@@ -66,7 +74,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ExamResults.ExamManagement">
+  <component name="RunManager" selected="Application.LibraryApplication">
     <configuration name="BankAccountManagement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BankAccountManagement.BankAccountManagement" />
       <module name="IntroProgram" />
@@ -119,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exceptions.TestExceptions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.TestExceptions" />
+    <configuration name="LibraryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LibraryApplication.LibraryApplication" />
       <module name="IntroProgram" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="LibraryApplication.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LibraryApplication" />
         <item itemvalue="Application.ExamResults.ExamManagement" />
         <item itemvalue="Application.BankAccountManagement" />
         <item itemvalue="Application.BankingApp" />
         <item itemvalue="Application.ExamManagement" />
-        <item itemvalue="Application.exceptions.TestExceptions" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +184,21 @@
       <workItem from="1698516171388" duration="19000" />
       <workItem from="1698516433942" duration="31862000" />
       <workItem from="1698608088628" duration="10254000" />
-      <workItem from="1698682905313" duration="3648000" />
+      <workItem from="1698682905313" duration="12082000" />
+      <workItem from="1699096840199" duration="13485000" />
+      <workItem from="1699272423637" duration="2071000" />
+      <workItem from="1699437406136" duration="1875000" />
+      <workItem from="1699569151758" duration="40000" />
+      <workItem from="1699569203359" duration="99000" />
+      <workItem from="1699569314735" duration="41000" />
+      <workItem from="1699812793123" duration="164000" />
+      <workItem from="1699812970059" duration="362000" />
+      <workItem from="1699813817173" duration="200000" />
+      <workItem from="1700084130513" duration="1228000" />
+      <workItem from="1700087587652" duration="670000" />
+      <workItem from="1700471558341" duration="5000" />
+      <workItem from="1700994612077" duration="522000" />
+      <workItem from="1700995270192" duration="21698000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit 2">
       <option name="closed" value="true" />
@@ -226,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1698683467915</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated print options to screen and to .txt file">
+      <option name="closed" value="true" />
+      <created>1698687187855</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698687187855</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +280,8 @@
     <MESSAGE value="Fixing bugs" />
     <MESSAGE value="Menu modified" />
     <MESSAGE value="Format code, fixing bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Format code, fixing bugs" />
+    <MESSAGE value="Updated print options to screen and to .txt file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated print options to screen and to .txt file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

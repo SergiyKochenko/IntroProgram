@@ -17,9 +17,7 @@ class ExamManagement {
     public static final String YELLOW = "\u001B[33m";
     public static final String ORANGE = "\u001B[38;5;208m";
 
-
-
-
+    
     public static void main(String[] args) {
         List<Student> students = new ArrayList<>();
         List<ExamResult> examResults = new ArrayList<>();
